@@ -1,10 +1,11 @@
-
-function UnautehnticatedLayout({children}) {
+import Header from "../components/partials/Header";
+function UnautehnticatedLayout({ children }) {
   return (
-    <div className="bg-red-700">
-        {children}
+    <div className>
+      <Header />
+      {children}
     </div>
-  )
-}
+  );
+} //{childer}//aici e inner components ca acest layout e in ficare pagina
 
-export default UnautehnticatedLayout
+export default UnautehnticatedLayout;
