@@ -1,7 +1,7 @@
 import Header from "../components/partials/Header";
 function UnautehnticatedLayout({ children }) {
   return (
-    <div className>
+    <div>
       <Header />
       {children}
     </div>

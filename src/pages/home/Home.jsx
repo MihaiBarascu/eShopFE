@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <UnautehnticatedLayout>
       <div>
-        <h1>HOME PAGE</h1>
+        <h1>HOME PAGE 22</h1>
       </div>
     </UnautehnticatedLayout>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { Menubar } from "primereact/menubar";
+import { Logo } from "../../config/Icons";
 
 function Header() {
   const items = [
@@ -15,6 +16,7 @@ function Header() {
   const start = (
     <div className="flex items-center px-2">
       <h2>Horeka Restaurants</h2>
+      <Logo />
     </div>
   );
 
@@ -36,7 +38,7 @@ function Header() {
           <span className="mr-4 text-sm">
             <i className="pi pi-phone" /> +40 123 123 123
           </span>
-          <span text-xs>
+          <span>
             <i className="pi pi-envelope " /> contact@email.com
           </span>
         </div>

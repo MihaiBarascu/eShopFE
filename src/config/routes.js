@@ -1,16 +1,7 @@
-// Routes config file example
-
-// import CreatePage from "../pages/CreatePage";
-// import CreateUserPage from "../pages/CreateUserPage";
-// import DashboardPage from "../pages/DashboardPage";
-// import EditUserPage from "../pages/EditUserPage";
-// import ForgotPasswordPage from "../pages/ForgotPasswordPage";
-// import LoginPage from "../pages/LoginPage";
-// import ResetPasswordPage from "../pages/ResetPasswordPage";
-// import UsersPage from "../pages/UsersPage";
 import Login from "../pages/login/Login";
 import Register from "../pages/login/Register";
-import Home from "../pages/home/home";
+import Home from "../pages/home/Home";
+
 export const routes = {
   private: [
     {
